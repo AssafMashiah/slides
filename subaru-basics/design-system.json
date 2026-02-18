@@ -1,0 +1,70 @@
+{
+  "palette": {
+    "primary": "#0057A6",
+    "secondary": "#B9D3EE",
+    "accent": "#E0AB00",
+    "background": "#F0F4F8",
+    "surface": "#FFFFFF",
+    "text": "#2D3748",
+    "textLight": "#718096"
+  },
+  "fonts": {
+    "heading": "Montserrat",
+    "body": "Open Sans",
+    "code": "Fira Code"
+  },
+  "mood": "Clean, reliable, and subtly adventurous.",
+  "imageStyle": "Subaru car, professional automotive photography, detailed, realistic, 8k",
+  "customCSS": "@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&family=Fira+Code&display=swap');\n\n.slidev-layout {\n  --slidev-font-heading: 'Montserrat', sans-serif;\n  --slidev-font-body: 'Open Sans', sans-serif;\n  --slidev-font-code: 'Fira Code', monospace;\n  color: #2D3748;\n}\n\nh1, h2, h3, h4, h5, h6 {\n  color: #0057A6;\n}",
+  "slides": [
+    {
+      "index": 0,
+      "layout": "cover",
+      "classes": "text-left"
+    },
+    {
+      "index": 1,
+      "layout": "default"
+    },
+    {
+      "index": 2,
+      "layout": "image-left",
+      "classes": "text-left"
+    },
+    {
+      "index": 3,
+      "layout": "image-right",
+      "classes": "text-left"
+    },
+    {
+      "index": 4,
+      "layout": "section"
+    },
+    {
+      "index": 5,
+      "layout": "two-cols"
+    },
+    {
+      "index": 6,
+      "layout": "image-left",
+      "classes": "text-left"
+    },
+    {
+      "index": 7,
+      "layout": "default"
+    },
+    {
+      "index": 8,
+      "layout": "fact"
+    },
+    {
+      "index": 9,
+      "layout": "image-right",
+      "classes": "text-left"
+    },
+    {
+      "index": 10,
+      "layout": "end"
+    }
+  ]
+}
