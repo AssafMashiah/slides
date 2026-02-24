@@ -1,0 +1,38 @@
+{
+  "colorPalette": {
+    "primary": "#0a0e1a",
+    "secondary": "#1a2332",
+    "accent": "#ff6b35",
+    "accentSecondary": "#4ecdc4",
+    "background": "#050810",
+    "text": "#e8eaed",
+    "textMuted": "#8b95a8",
+    "neonOrange": "#ff6b35",
+    "neonBlue": "#00d9ff",
+    "neonPurple": "#b537f2",
+    "rainGray": "#4a5568"
+  },
+  "typography": {
+    "headingFont": "Rajdhani, sans-serif",
+    "bodyFont": "Inter, system-ui, sans-serif",
+    "monoFont": "JetBrains Mono, monospace",
+    "headingSizes": {
+      "h1": "4rem",
+      "h2": "3rem",
+      "h3": "2rem"
+    }
+  },
+  "spacing": {
+    "xs": "0.5rem",
+    "sm": "1rem",
+    "md": "2rem",
+    "lg": "4rem",
+    "xl": "6rem"
+  },
+  "visualStyle": {
+    "mood": "Neo-noir cyberpunk dystopia",
+    "atmosphere": "Rain-soaked neon-lit streets, contemplative darkness",
+    "effects": "Glitch, scan lines, light leaks, film grain",
+    "composition": "High contrast, dramatic lighting, urban decay meets high-tech"
+  }
+}
