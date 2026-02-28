@@ -1,0 +1,13 @@
+{
+  "name": "slides-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "dev": "echo 'Run: cd <deck-name> && npm install && npm run dev'"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.0.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest"
+  }
+}
