@@ -20,9 +20,11 @@ console.log(`Found decks: ${decks.join(', ')}`);
 if (fs.existsSync(dist)) execSync(`rm -rf ${dist}`);
 fs.mkdirSync(dist);
 
-// Install root deps once
+// Install root deps once (bun preferred, falls back to npm)
 console.log('Installing dependencies...');
-execSync('npm install --legacy-peer-deps', { stdio: 'inherit', cwd: root });
+const pm = (() => { try { execSync('bun --version', { stdio: 'ignore' }); return 'bun'; } catch { return 'npm'; } })();
+console.log(`Using package manager: ${pm}`);
+execSync(pm === 'bun' ? 'bun install' : 'npm install --legacy-peer-deps', { stdio: 'inherit', cwd: root });
 
 // Build each deck
 for (const deck of decks) {
@@ -30,7 +32,7 @@ for (const deck of decks) {
   const outDir = path.join(dist, deck);
   console.log(`\nBuilding ${deck}...`);
   execSync(
-    `npx slidev build slides.md --base /${deck}/ --out ${outDir}`,
+    `${pm === 'bun' ? 'bunx' : 'npx'} slidev build slides.md --base /${deck}/ --out ${outDir}`,
     { stdio: 'inherit', cwd: deckDir }
   );
 }
