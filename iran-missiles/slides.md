@@ -17,160 +17,291 @@ fonts:
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+Pro:wght@300;400;600&family=Oswald:wght@500;700&family=JetBrains+Mono&display=swap');
-.label { font-family:'Oswald',sans-serif; text-transform:uppercase; letter-spacing:0.15em; color:#B22234; font-size:0.8rem; }
+.label { font-family:'Oswald',sans-serif; text-transform:uppercase; letter-spacing:0.2em; color:#B22234; font-size:0.8rem; }
 .gold { color:#C9A84C; }
 .red { color:#B22234; }
-.muted { color:#8B9AB5; font-size:0.85rem; }
-.tag { display:inline-block; font-family:'Oswald',sans-serif; font-size:0.65rem; padding:2px 8px; border-radius:3px; text-transform:uppercase; letter-spacing:0.1em; font-weight:600; }
+.muted { color:#8B9AB5; font-size:0.82rem; }
+.mono { font-family:'JetBrains Mono',monospace; }
+.tag { display:inline-block; font-family:'Oswald',sans-serif; font-size:0.62rem; padding:2px 9px; border-radius:3px; text-transform:uppercase; letter-spacing:0.08em; font-weight:700; }
 .tag-op { background:#1b3a1b; color:#3fb950; }
 .tag-dev { background:#3d1f00; color:#f0883e; }
-.missile-row { display:flex; justify-content:space-between; align-items:center; padding:8px 0; border-bottom:1px solid #1a2640; font-size:0.82rem; }
-.missile-name { font-family:'Oswald',sans-serif; font-weight:600; font-size:0.9rem; color:#fff; }
-.missile-range { color:#C9A84C; font-family:'JetBrains Mono',monospace; font-size:0.8rem; }
+.wiki-link { color:#C9A84C; text-decoration:none; font-size:0.7rem; font-family:'Oswald',sans-serif; letter-spacing:0.05em; opacity:0.85; }
+.wiki-link:hover { opacity:1; text-decoration:underline; }
+.card { background:#111C2E; border-radius:6px; padding:0.9rem 1rem; border:1px solid #1a2640; }
+.card-red { border-top:3px solid #B22234; }
+.card-orange { border-top:3px solid #f0883e; }
+.card-green { border-top:3px solid #3fb950; }
+.card-purple { border-top:3px solid #a371f7; }
+.card-blue { border-top:3px solid #58a6ff; }
+.card-gold { border-top:3px solid #C9A84C; }
 </style>
 
-<div style="position:absolute;inset:0;background:linear-gradient(135deg,#070E1A 60%,#1A0505 100%);"></div>
+---
+layout: image
+image: https://upload.wikimedia.org/wikipedia/commons/f/f6/Islamic_Republic_of_Iran_Army_Day%2C_2023%2C_Shiraz_%28062%29.jpg
+---
 
-<div style="position:relative;z-index:10;">
+<div style="position:absolute;inset:0;background:linear-gradient(to right, rgba(7,14,26,0.97) 45%, rgba(7,14,26,0.55) 100%);"></div>
+
+<div style="position:relative;z-index:10;height:100%;display:flex;flex-direction:column;justify-content:center;padding:3rem 3.5rem;">
   <div class="label" style="margin-bottom:1.5rem;">Defense Intelligence · February 2026</div>
-  <div style="font-size:3rem;margin-bottom:1rem;">🇮🇷 🚀</div>
-  <h1 style="font-family:'Playfair Display',serif;font-size:3rem;font-weight:900;color:#FFFFFF;line-height:1.1;margin-bottom:1rem;">
-    Iran's Missile Arsenal
+  <h1 style="font-family:'Playfair Display',serif;font-size:3.4rem;font-weight:900;color:#FFFFFF;line-height:1.08;margin-bottom:1rem;">
+    Iran's<br><span style="color:#B22234;">Missile Arsenal</span>
   </h1>
-  <div style="font-size:1.2rem;color:#C9A84C;font-family:'Playfair Display',serif;font-style:italic;">The Middle East's Most Diverse Missile Force</div>
-  <div style="margin-top:2rem;font-size:0.8rem;color:#8B9AB5;font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:0.15em;">Source: CSIS Missile Threat · missilethreat.csis.org</div>
-</div>
-
----
-layout: default
-background: '#070E1A'
----
-
-<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 2rem;">
-  <div class="label" style="margin-bottom:1rem;">Overview</div>
-  <h2 style="font-family:'Playfair Display',serif;font-size:2rem;color:#fff;margin-bottom:1.5rem;">Why Iran Built the Region's Largest Missile Force</h2>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
-    <div style="background:#111C2E;border-left:3px solid #B22234;padding:1.2rem;border-radius:4px;">
-      <div style="font-family:'Oswald',sans-serif;color:#B22234;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">The Problem</div>
-      <div style="font-size:0.85rem;color:#c0cce0;line-height:1.6;">Isolated after 1979, Iran was cut off from Western arms. Surrounded by US bases in Iraq, Afghanistan, the Gulf, and the Indian Ocean — it needed an asymmetric deterrent.</div>
-    </div>
-    <div style="background:#111C2E;border-left:3px solid #C9A84C;padding:1.2rem;border-radius:4px;">
-      <div style="font-family:'Oswald',sans-serif;color:#C9A84C;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">The Solution</div>
-      <div style="font-size:0.85rem;color:#c0cce0;line-height:1.6;">Iran built its own. Starting with Soviet Scud technology from North Korea, it developed a 40-year indigenous missile program — now the largest and most diverse in the Middle East.</div>
-    </div>
-    <div style="background:#111C2E;border-left:3px solid #3fb950;padding:1.2rem;border-radius:4px;">
-      <div style="font-family:'Oswald',sans-serif;color:#3fb950;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">The Scale</div>
-      <div style="font-size:0.85rem;color:#c0cce0;line-height:1.6;"><strong style="color:#fff;">Thousands</strong> of missiles and rockets. Can strike Israel, US bases across the region, and parts of southeastern Europe. Farthest-reaching: <span class="gold">3,000 km</span>.</div>
-    </div>
-    <div style="background:#111C2E;border-left:3px solid #58a6ff;padding:1.2rem;border-radius:4px;">
-      <div style="font-family:'Oswald',sans-serif;color:#58a6ff;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.5rem;">The Threat (2025)</div>
-      <div style="font-size:0.85rem;color:#c0cce0;line-height:1.6;">In <strong style="color:#fff;">October 2025</strong>, Supreme Leader Khamenei authorized development of miniaturized nuclear warheads for ballistic missiles — a decisive escalation toward weaponization.</div>
-    </div>
+  <div style="font-size:1.1rem;color:#C9A84C;font-family:'Playfair Display',serif;font-style:italic;margin-bottom:2rem;max-width:480px;">The Middle East's Largest & Most Diverse Missile Force</div>
+  <div style="display:flex;gap:2rem;font-size:0.75rem;color:#8B9AB5;">
+    <div>📡 Source: <a href="https://missilethreat.csis.org/country/iran/" target="_blank" style="color:#C9A84C;text-decoration:none;">CSIS Missile Threat</a></div>
+    <div>📖 <a href="https://en.wikipedia.org/wiki/Iranian_ballistic_missiles" target="_blank" style="color:#C9A84C;text-decoration:none;">Wikipedia: Iranian Ballistic Missiles</a></div>
   </div>
 </div>
 
 ---
-layout: default
+layout: image
+image: https://upload.wikimedia.org/wikipedia/commons/4/45/Great_Prophet_II_%2830%29.jpg
+---
+
+<div style="position:absolute;inset:0;background:linear-gradient(to bottom, rgba(7,14,26,0.88) 0%, rgba(7,14,26,0.65) 50%, rgba(7,14,26,0.92) 100%);"></div>
+
+<div style="position:relative;z-index:10;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:2rem 3rem;text-align:center;">
+  <div class="label" style="margin-bottom:1.2rem;">Why This Matters</div>
+  <h2 style="font-family:'Playfair Display',serif;font-size:2.2rem;color:#fff;margin-bottom:2rem;">Iran built the region's largest missile force<br><span style="color:#C9A84C;">from scratch — starting in 1980</span></h2>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:1rem;width:100%;">
+    <div style="background:rgba(17,28,46,0.92);border-top:3px solid #B22234;border-radius:6px;padding:1rem;">
+      <div style="font-family:'Playfair Display',serif;font-size:2rem;color:#B22234;font-weight:900;">3,000<span style="font-size:1rem;">km</span></div>
+      <div style="font-size:0.75rem;color:#8B9AB5;margin-top:0.3rem;">Max cruise missile range — reaches southeastern Europe</div>
+    </div>
+    <div style="background:rgba(17,28,46,0.92);border-top:3px solid #C9A84C;border-radius:6px;padding:1rem;">
+      <div style="font-family:'Playfair Display',serif;font-size:2rem;color:#C9A84C;font-weight:900;">1,000s</div>
+      <div style="font-size:0.75rem;color:#8B9AB5;margin-top:0.3rem;">Ballistic & cruise missiles in active inventory</div>
+    </div>
+    <div style="background:rgba(17,28,46,0.92);border-top:3px solid #3fb950;border-radius:6px;padding:1rem;">
+      <div style="font-family:'Playfair Display',serif;font-size:2rem;color:#3fb950;font-weight:900;">16</div>
+      <div style="font-size:0.75rem;color:#8B9AB5;margin-top:0.3rem;">Missiles fired at US bases in Iraq — Jan 8, 2020</div>
+    </div>
+    <div style="background:rgba(17,28,46,0.92);border-top:3px solid #f0883e;border-radius:6px;padding:1rem;">
+      <div style="font-family:'Playfair Display',serif;font-size:2rem;color:#f0883e;font-weight:900;">300+</div>
+      <div style="font-size:0.75rem;color:#8B9AB5;margin-top:0.3rem;">Drones & missiles fired directly at Israel — April 2024</div>
+    </div>
+  </div>
+  <div style="margin-top:1.5rem;font-size:0.72rem;color:#8B9AB5;">
+    <a href="https://missilethreat.csis.org/country/iran/" target="_blank" style="color:#C9A84C;text-decoration:none;">missilethreat.csis.org</a>
+    &nbsp;·&nbsp;
+    <a href="https://en.wikipedia.org/wiki/Iran_and_weapons_of_mass_destruction" target="_blank" style="color:#C9A84C;text-decoration:none;">Iran & WMD — Wikipedia</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.armscontrol.org/factsheets/iranmissile" target="_blank" style="color:#C9A84C;text-decoration:none;">Arms Control Association</a>
+  </div>
+</div>
+
+---
+layout: two-cols
 background: '#070E1A'
 ---
 
-<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 2rem;">
+<div style="height:100%;padding:1.5rem 1rem 1.5rem 1.5rem;display:flex;flex-direction:column;justify-content:center;">
   <div class="label" style="margin-bottom:0.5rem;">Category 1</div>
-  <h2 style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:0.4rem;">Short-Range Ballistic Missiles</h2>
-  <div style="color:#58a6ff;font-family:'Oswald',sans-serif;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1.2rem;">SRBM · Up to 1,000 km · Battlefield Deterrent</div>
+  <h2 style="font-family:'Playfair Display',serif;font-size:1.7rem;color:#fff;margin-bottom:0.3rem;">Short-Range<br>Ballistic Missiles</h2>
+  <div style="font-family:'Oswald',sans-serif;color:#58a6ff;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1.2rem;">SRBM · Up to 800 km</div>
 
-  <div style="background:#111C2E;border-radius:6px;overflow:hidden;border:1px solid #1a2640;">
-    <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 0.8fr;padding:0.5rem 1rem;background:#1a2640;font-family:'Oswald',sans-serif;font-size:0.7rem;text-transform:uppercase;letter-spacing:0.1em;color:#8B9AB5;">
-      <span>Missile</span><span>Range</span><span>Fuel / Origin</span><span>Status</span>
+  <div style="background:#111C2E;border-radius:6px;overflow:hidden;border:1px solid #1a2640;font-size:0.78rem;">
+    <div style="display:grid;grid-template-columns:1.6fr 0.9fr 0.7fr;padding:0.45rem 0.8rem;background:#1a2640;font-family:'Oswald',sans-serif;font-size:0.65rem;text-transform:uppercase;letter-spacing:0.08em;color:#8B9AB5;">
+      <span>Missile</span><span>Range</span><span>Status</span>
     </div>
-    <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 0.8fr;padding:0.6rem 1rem;border-bottom:1px solid #1a2640;font-size:0.82rem;align-items:center;">
-      <span style="font-family:'Oswald',sans-serif;color:#fff;">Shahab-1</span>
-      <span class="gold" style="font-family:'JetBrains Mono',monospace;">285–330 km</span>
-      <span class="muted">Liquid / Soviet Scud-B</span>
-      <span class="tag tag-op">Operational</span>
-    </div>
-    <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 0.8fr;padding:0.6rem 1rem;border-bottom:1px solid #1a2640;font-size:0.82rem;align-items:center;background:#0d1520;">
-      <span style="font-family:'Oswald',sans-serif;color:#fff;">Shahab-2</span>
-      <span class="gold" style="font-family:'JetBrains Mono',monospace;">500 km</span>
-      <span class="muted">Liquid / Scud-C</span>
-      <span class="tag tag-op">Operational</span>
-    </div>
-    <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 0.8fr;padding:0.6rem 1rem;border-bottom:1px solid #1a2640;font-size:0.82rem;align-items:center;">
-      <span style="font-family:'Oswald',sans-serif;color:#fff;">Fateh-110</span>
-      <span class="gold" style="font-family:'JetBrains Mono',monospace;">200–300 km</span>
-      <span class="muted">Solid / Indigenous 🇮🇷</span>
-      <span class="tag tag-op">Operational</span>
-    </div>
-    <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 0.8fr;padding:0.6rem 1rem;border-bottom:1px solid #1a2640;font-size:0.82rem;align-items:center;background:#0d1520;">
-      <span style="font-family:'Oswald',sans-serif;color:#fff;">Fateh-313</span>
-      <span class="gold" style="font-family:'JetBrains Mono',monospace;">500 km</span>
-      <span class="muted">Solid / Indigenous 🇮🇷</span>
-      <span class="tag tag-op">Operational</span>
-    </div>
-    <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 0.8fr;padding:0.6rem 1rem;border-bottom:1px solid #1a2640;font-size:0.82rem;align-items:center;">
-      <span style="font-family:'Oswald',sans-serif;color:#fff;">Zolfaghar</span>
-      <span class="gold" style="font-family:'JetBrains Mono',monospace;">700 km</span>
-      <span class="muted">Solid / Fateh family</span>
-      <span class="tag tag-op">Operational</span>
-    </div>
-    <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 0.8fr;padding:0.6rem 1rem;border-bottom:1px solid #1a2640;font-size:0.82rem;align-items:center;background:#0d1520;">
-      <span style="font-family:'Oswald',sans-serif;color:#fff;">Qiam-1</span>
-      <span class="gold" style="font-family:'JetBrains Mono',monospace;">700–800 km</span>
-      <span class="muted">Liquid / No fins (radar-evasive)</span>
-      <span class="tag tag-op">Operational</span>
-    </div>
-    <div style="display:grid;grid-template-columns:2fr 1.2fr 1.2fr 0.8fr;padding:0.6rem 1rem;font-size:0.82rem;align-items:center;">
-      <span style="font-family:'Oswald',sans-serif;color:#fff;">Tondar-69</span>
-      <span class="gold" style="font-family:'JetBrains Mono',monospace;">150 km</span>
-      <span class="muted">Solid / Chinese CSS-8</span>
-      <span class="tag tag-op">Operational</span>
+    <div v-for="(m, i) in [
+      {name:'Shahab-1', range:'285–330 km', op:true, url:'https://en.wikipedia.org/wiki/Shahab-1'},
+      {name:'Shahab-2', range:'500 km', op:true, url:'https://en.wikipedia.org/wiki/Shahab-2'},
+      {name:'Fateh-110', range:'200–300 km', op:true, url:'https://en.wikipedia.org/wiki/Fateh-110'},
+      {name:'Fateh-313', range:'500 km', op:true, url:'https://en.wikipedia.org/wiki/Fateh-313'},
+      {name:'Zolfaghar', range:'700 km', op:true, url:'https://en.wikipedia.org/wiki/Zolfaghar_(missile)'},
+      {name:'Qiam-1', range:'700–800 km', op:true, url:'https://en.wikipedia.org/wiki/Qiam-1'},
+      {name:'Tondar-69', range:'150 km', op:true, url:'https://en.wikipedia.org/wiki/Tondar-69'},
+    ]" :key="i" :style="{display:'grid',gridTemplateColumns:'1.6fr 0.9fr 0.7fr',padding:'0.45rem 0.8rem',borderBottom:'1px solid #1a2640',alignItems:'center',background: i%2===0 ? '#0d1520' : 'transparent'}">
+      <a :href="m.url" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:0.82rem;text-decoration:none;font-weight:600;">{{ m.name }} <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+      <span style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.75rem;">{{ m.range }}</span>
+      <span class="tag tag-op" v-if="m.op">Operational</span>
     </div>
   </div>
-  <div style="margin-top:0.8rem;font-size:0.75rem;color:#8B9AB5;">★ Zolfaghar and Qiam-1 were used in the January 2020 strikes on US bases in Iraq</div>
+  <div style="margin-top:0.8rem;font-size:0.7rem;color:#8B9AB5;">★ Zolfaghar & Qiam-1 used in Jan 2020 US base strikes</div>
+</div>
+
+::right::
+
+<div style="height:100%;display:flex;align-items:center;justify-content:center;padding:1rem;">
+  <div style="position:relative;width:100%;height:90%;border-radius:8px;overflow:hidden;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Zolfaghar_missile.jpg" style="width:100%;height:50%;object-fit:cover;border-radius:6px 6px 0 0;" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Fateh-110_Missile_by_YPA.IR_02.jpg" style="width:100%;height:48%;object-fit:cover;border-radius:0 0 6px 6px;margin-top:2%;" />
+    <div style="position:absolute;bottom:0;left:0;right:0;padding:0.5rem;background:linear-gradient(to top,rgba(7,14,26,0.9),transparent);font-size:0.65rem;color:#8B9AB5;text-align:center;">Zolfaghar (top) · Fateh-110 (bottom) · © Wikimedia Commons</div>
+  </div>
 </div>
 
 ---
-layout: default
+layout: two-cols
 background: '#070E1A'
 ---
 
-<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 2rem;">
+<div style="height:100%;padding:1.5rem 1rem 1.5rem 1.5rem;display:flex;flex-direction:column;justify-content:center;">
   <div class="label" style="margin-bottom:0.5rem;">Category 2</div>
-  <h2 style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:0.4rem;">Medium-Range Ballistic Missiles</h2>
-  <div style="color:#f0883e;font-family:'Oswald',sans-serif;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1.2rem;">MRBM · 1,000–3,000 km · Strategic Deterrent · Can Reach Israel &amp; Europe</div>
+  <h2 style="font-family:'Playfair Display',serif;font-size:1.7rem;color:#fff;margin-bottom:0.3rem;">Medium-Range<br>Ballistic Missiles</h2>
+  <div style="font-family:'Oswald',sans-serif;color:#f0883e;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1rem;">MRBM · Can Reach Israel & Europe</div>
 
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border:1px solid #1a2640;">
-      <div style="font-family:'Oswald',sans-serif;font-size:1rem;color:#fff;margin-bottom:0.3rem;">Shahab-3</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">1,300 km</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Based on North Korean Nodong-1. Iran's first MRBM. Can reach all of Israel. Liquid-fueled.</div>
-      <div style="margin-top:0.5rem;"><span class="tag tag-op">Operational</span></div>
+  <div style="display:flex;flex-direction:column;gap:0.55rem;">
+    <div class="card card-orange" style="padding:0.6rem 0.8rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.2rem;">
+        <a href="https://en.wikipedia.org/wiki/Shahab-3" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:0.88rem;text-decoration:none;">Shahab-3 <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+        <div style="display:flex;align-items:center;gap:0.5rem;"><span class="mono gold" style="font-size:0.78rem;">1,300 km</span> <span class="tag tag-op">Operational</span></div>
+      </div>
+      <div class="muted">Based on N. Korean Nodong-1. Iran's first MRBM. Reaches all of Israel.</div>
     </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border:1px solid #1a2640;">
-      <div style="font-family:'Oswald',sans-serif;font-size:1rem;color:#fff;margin-bottom:0.3rem;">Ghadr-1 <span style="color:#8B9AB5;font-size:0.75rem;">(Shahab-3 variant)</span></div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">1,950 km</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Upgraded Shahab-3 with improved fuel and re-entry vehicle. Reaches deeper into Europe.</div>
-      <div style="margin-top:0.5rem;"><span class="tag tag-dev">In Development</span></div>
+    <div class="card card-orange" style="padding:0.6rem 0.8rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.2rem;">
+        <a href="https://en.wikipedia.org/wiki/Ghadr-1" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:0.88rem;text-decoration:none;">Ghadr-1 <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+        <div style="display:flex;align-items:center;gap:0.5rem;"><span class="mono gold" style="font-size:0.78rem;">1,950 km</span> <span class="tag tag-dev">In Dev</span></div>
+      </div>
+      <div class="muted">Upgraded Shahab-3. Improved re-entry vehicle. Reaches SE Europe.</div>
     </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border:1px solid #1a2640;">
-      <div style="font-family:'Oswald',sans-serif;font-size:1rem;color:#fff;margin-bottom:0.3rem;">Emad <span style="color:#8B9AB5;font-size:0.75rem;">(Shahab-3 variant)</span></div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">1,700 km</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Maneuverable re-entry vehicle (MaRV). Significantly harder to intercept with missile defense systems.</div>
-      <div style="margin-top:0.5rem;"><span class="tag tag-dev">In Development</span></div>
+    <div class="card card-orange" style="padding:0.6rem 0.8rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.2rem;">
+        <a href="https://en.wikipedia.org/wiki/Emad_(missile)" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:0.88rem;text-decoration:none;">Emad <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+        <div style="display:flex;align-items:center;gap:0.5rem;"><span class="mono gold" style="font-size:0.78rem;">1,700 km</span> <span class="tag tag-dev">In Dev</span></div>
+      </div>
+      <div class="muted">Maneuverable re-entry vehicle (MaRV) — harder to intercept.</div>
     </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border:1px solid #1a2640;">
-      <div style="font-family:'Oswald',sans-serif;font-size:1rem;color:#fff;margin-bottom:0.3rem;">Sejjil ⭐</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">2,000 km</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Two-stage, <strong style="color:#fff">solid-fuel</strong> — Iran's most advanced MRBM. Faster launch, harder to preempt. Can reach all of Israel.</div>
-      <div style="margin-top:0.5rem;"><span class="tag tag-op">Operational</span></div>
+    <div class="card" style="padding:0.6rem 0.8rem;border-top:3px solid #B22234;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.2rem;">
+        <a href="https://en.wikipedia.org/wiki/Sejjil" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:0.88rem;text-decoration:none;">Sejjil ⭐ <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+        <div style="display:flex;align-items:center;gap:0.5rem;"><span class="mono gold" style="font-size:0.78rem;">2,000 km</span> <span class="tag tag-op">Operational</span></div>
+      </div>
+      <div class="muted"><strong style="color:#fff">Solid-fuel</strong>, 2-stage — fastest launch. Iran's most advanced MRBM.</div>
     </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border:1px solid #1a2640;grid-column:1/-1;">
-      <div style="font-family:'Oswald',sans-serif;font-size:1rem;color:#fff;margin-bottom:0.3rem;">Khorramshahr</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">2,000 km</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Multiple independently targetable re-entry vehicles (MaRV capable). If developed, one missile could strike multiple targets simultaneously. Potential nuclear delivery vehicle.</div>
-      <div style="margin-top:0.5rem;"><span class="tag tag-dev">In Development</span></div>
+    <div class="card card-orange" style="padding:0.6rem 0.8rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.2rem;">
+        <a href="https://en.wikipedia.org/wiki/Khorramshahr_(missile)" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:0.88rem;text-decoration:none;">Khorramshahr <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+        <div style="display:flex;align-items:center;gap:0.5rem;"><span class="mono gold" style="font-size:0.78rem;">2,000 km</span> <span class="tag tag-dev">In Dev</span></div>
+      </div>
+      <div class="muted">MaRV-capable. Multiple warheads. Potential nuclear delivery vehicle.</div>
     </div>
   </div>
+</div>
+
+::right::
+
+<div style="height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1rem 1.5rem 1rem 0.5rem;gap:0.8rem;">
+  <div style="width:100%;border-radius:8px;overflow:hidden;flex:1;max-height:55%;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Sejjil_missile_launch_-_November_2008_%2821%29.jpg" style="width:100%;height:100%;object-fit:cover;" />
+  </div>
+  <div style="width:100%;border-radius:8px;overflow:hidden;flex:1;max-height:43%;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Sedjeel_Missile_by_Tasnimnews.jpg" style="width:100%;height:100%;object-fit:cover;" />
+  </div>
+  <div style="font-size:0.62rem;color:#8B9AB5;text-align:center;">Sejjil launch 2008 (top) · Sejjil on display (bottom) · © Wikimedia Commons</div>
+</div>
+
+---
+layout: image
+image: https://upload.wikimedia.org/wikipedia/commons/8/8b/Unveiling_ceremony_of_Soumar_cruise_missile_and_other_missiles_%2813%29.jpg
+---
+
+<div style="position:absolute;inset:0;background:linear-gradient(to right, rgba(7,14,26,0.97) 50%, rgba(7,14,26,0.5) 100%);"></div>
+
+<div style="position:relative;z-index:10;height:100%;display:flex;flex-direction:column;justify-content:center;padding:2rem 3rem;">
+  <div class="label" style="margin-bottom:0.5rem;">Category 3</div>
+  <h2 style="font-family:'Playfair Display',serif;font-size:2rem;color:#fff;margin-bottom:0.3rem;">Cruise Missiles</h2>
+  <div style="font-family:'Oswald',sans-serif;color:#3fb950;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1.3rem;">Low-flying · Radar-evading · Up to 3,000 km</div>
+
+  <div style="display:flex;flex-direction:column;gap:0.8rem;max-width:520px;">
+    <div class="card card-green" style="padding:0.8rem 1rem;">
+      <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.4rem;">
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Soumar_(missile)" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:1rem;text-decoration:none;font-weight:700;">Soumar <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+          <div style="font-size:0.7rem;color:#8B9AB5;margin-top:0.1rem;">Derived from Soviet Kh-55 · Terrain-following</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="mono gold" style="font-size:1.1rem;font-weight:700;">2,000–3,000 km</div>
+          <span class="tag tag-op">Operational</span>
+        </div>
+      </div>
+      <div style="font-size:0.75rem;color:#c0cce0;">Iran's longest-range missile. Can reach southeastern Europe. Flies low, evades radar.</div>
+    </div>
+    <div class="card card-green" style="padding:0.8rem 1rem;">
+      <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.3rem;">
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Hoveizeh_(missile)" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:1rem;text-decoration:none;font-weight:700;">Hoveizeh <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+          <div style="font-size:0.7rem;color:#8B9AB5;margin-top:0.1rem;">Advanced Soumar variant · Unveiled 2019</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="mono gold" style="font-size:1.1rem;font-weight:700;">1,350 km</div>
+          <span class="tag tag-op">Operational</span>
+        </div>
+      </div>
+      <div style="font-size:0.75rem;color:#c0cce0;">Used in the <a href="https://en.wikipedia.org/wiki/2019_Abqaiq%E2%80%93Khurais_attack" target="_blank" style="color:#C9A84C;text-decoration:none;">2019 Aramco attack ↗</a> that halted 5–7% of global oil supply.</div>
+    </div>
+    <div class="card card-green" style="padding:0.8rem 1rem;">
+      <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:0.3rem;">
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Ya-Ali_(missile)" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:1rem;text-decoration:none;font-weight:700;">Ya-Ali <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+          <div style="font-size:0.7rem;color:#8B9AB5;margin-top:0.1rem;">Land-attack · Indigenous design 🇮🇷</div>
+        </div>
+        <div style="text-align:right;">
+          <div class="mono gold" style="font-size:1.1rem;font-weight:700;">700 km</div>
+          <span class="tag tag-op">Operational</span>
+        </div>
+      </div>
+      <div style="font-size:0.75rem;color:#c0cce0;">Precision terrain-following guidance. Fully designed and built in Iran.</div>
+    </div>
+  </div>
+  <div style="margin-top:1rem;font-size:0.65rem;color:#8B9AB5;">Photo: Soumar unveiling ceremony · © Wikimedia Commons</div>
+</div>
+
+---
+layout: two-cols
+background: '#070E1A'
+---
+
+<div style="height:100%;padding:1.5rem 1rem 1.5rem 1.5rem;display:flex;flex-direction:column;justify-content:center;">
+  <div class="label" style="margin-bottom:0.5rem;">Category 4</div>
+  <h2 style="font-family:'Playfair Display',serif;font-size:1.7rem;color:#fff;margin-bottom:0.3rem;">Anti-Ship Missiles</h2>
+  <div style="font-family:'Oswald',sans-serif;color:#a371f7;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1.2rem;">Strait of Hormuz Denial · Carrier-Killer</div>
+
+  <div style="display:flex;flex-direction:column;gap:0.6rem;">
+    <div class="card card-purple" style="padding:0.7rem 0.9rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.25rem;">
+        <a href="https://en.wikipedia.org/wiki/Ra%27ad_(missile)" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:0.9rem;text-decoration:none;">Ra'ad <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+        <div style="display:flex;gap:0.5rem;align-items:center;"><span class="mono gold" style="font-size:0.78rem;">350 km</span><span class="tag tag-op">Operational</span></div>
+      </div>
+      <div class="muted">Anti-ship cruise missile. Based on Chinese C-802. Primary naval strike weapon.</div>
+    </div>
+    <div class="card card-purple" style="padding:0.7rem 0.9rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.25rem;">
+        <a href="https://en.wikipedia.org/wiki/Noor_(missile)" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:0.9rem;text-decoration:none;">Noor <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+        <div style="display:flex;gap:0.5rem;align-items:center;"><span class="mono gold" style="font-size:0.78rem;">170 km</span><span class="tag tag-op">Operational</span></div>
+      </div>
+      <div class="muted">Struck Israeli warship INS Hanit during the 2006 Lebanon War.</div>
+    </div>
+    <div class="card" style="padding:0.7rem 0.9rem;border-top:3px solid #B22234;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.25rem;">
+        <a href="https://en.wikipedia.org/wiki/Khalij_Fars_(missile)" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:0.9rem;text-decoration:none;">Khalij Fars ⚠️ <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+        <div style="display:flex;gap:0.5rem;align-items:center;"><span class="mono gold" style="font-size:0.78rem;">~300 km</span><span class="tag tag-op">Operational</span></div>
+      </div>
+      <div class="muted"><strong style="color:#fff">Ballistic</strong> anti-ship missile. Designed to strike moving US aircraft carriers — rare global capability.</div>
+    </div>
+    <div class="card card-purple" style="padding:0.7rem 0.9rem;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.25rem;">
+        <span style="font-family:'Oswald',sans-serif;color:#fff;font-size:0.9rem;">Hormuz-1/2</span>
+        <div style="display:flex;gap:0.5rem;align-items:center;"><span class="mono gold" style="font-size:0.78rem;">300 km</span><span class="tag tag-op">Operational</span></div>
+      </div>
+      <div class="muted">Anti-radiation missile. Homes in on and destroys radar systems on ships and ground installations.</div>
+    </div>
+  </div>
+  <div style="margin-top:1rem;background:#0d0a1a;border:1px solid #2d1b69;border-radius:4px;padding:0.6rem 0.8rem;font-size:0.73rem;color:#c0cce0;">
+    🎯 <strong style="color:#a371f7">Goal:</strong> Deny US Navy access to the Persian Gulf & Strait of Hormuz — through which <strong style="color:#fff">20% of global oil</strong> flows.
+  </div>
+</div>
+
+::right::
+
+<div style="height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1rem 1.5rem 1rem 0.5rem;gap:0.8rem;">
+  <div style="width:100%;border-radius:8px;overflow:hidden;flex:1;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Ghader_missile_in_2013_parade.jpg" style="width:100%;height:100%;object-fit:cover;" />
+  </div>
+  <div style="font-size:0.62rem;color:#8B9AB5;text-align:center;">Ghader anti-ship missile on parade · © Wikimedia Commons</div>
 </div>
 
 ---
@@ -178,148 +309,111 @@ layout: default
 background: '#070E1A'
 ---
 
-<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 2rem;">
-  <div class="label" style="margin-bottom:0.5rem;">Category 3</div>
-  <h2 style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:0.4rem;">Cruise Missiles</h2>
-  <div style="color:#3fb950;font-family:'Oswald',sans-serif;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1.2rem;">Low-flying · Radar-Evading · Up to 3,000 km</div>
+<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:1.5rem 2rem;">
+  <div class="label" style="margin-bottom:0.5rem;">Category 5</div>
+  <h2 style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:0.3rem;">Space Launch Vehicles — The Dual-Use Cover</h2>
+  <div style="font-family:'Oswald',sans-serif;color:#C9A84C;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1.2rem;">ICBM-Applicable Technology · "Civilian" Space Program</div>
 
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-bottom:1rem;">
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border-top:3px solid #3fb950;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.95rem;color:#fff;margin-bottom:0.3rem;">Soumar</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:1rem;font-weight:700;margin-bottom:0.5rem;">2,000–3,000 km</div>
-      <div style="font-size:0.75rem;color:#8B9AB5;line-height:1.5;">Iran's longest-range cruise missile. Derived from Soviet Kh-55. Can reach deep into Europe. Terrain-following guidance.</div>
+    <div class="card card-blue" style="text-align:center;padding:1rem;">
+      <div style="font-size:2.5rem;margin-bottom:0.4rem;">🛰️</div>
+      <a href="https://en.wikipedia.org/wiki/Safir_(rocket)" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:1rem;text-decoration:none;display:block;margin-bottom:0.3rem;">Safir <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+      <div class="mono gold" style="font-size:0.9rem;margin-bottom:0.5rem;">350 km alt.</div>
+      <div class="muted" style="font-size:0.72rem;line-height:1.5;">Iran's first orbital SLV. Placed Omid satellite in orbit (2009). Two-stage, liquid-fueled.</div>
       <div style="margin-top:0.6rem;"><span class="tag tag-op">Operational</span></div>
     </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border-top:3px solid #3fb950;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.95rem;color:#fff;margin-bottom:0.3rem;">Hoveizeh</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:1rem;font-weight:700;margin-bottom:0.5rem;">1,350 km</div>
-      <div style="font-size:0.75rem;color:#8B9AB5;line-height:1.5;">Advanced Soumar variant. Unveiled 2019. Used in the Aramco oil facility attack (September 2019).</div>
-      <div style="margin-top:0.6rem;"><span class="tag tag-op">Operational</span></div>
-    </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border-top:3px solid #3fb950;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.95rem;color:#fff;margin-bottom:0.3rem;">Ya-Ali</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:1rem;font-weight:700;margin-bottom:0.5rem;">700 km</div>
-      <div style="font-size:0.75rem;color:#8B9AB5;line-height:1.5;">Land-attack cruise missile with precision terrain-following guidance. Fully indigenous design.</div>
-      <div style="margin-top:0.6rem;"><span class="tag tag-op">Operational</span></div>
-    </div>
-  </div>
-
-  <div style="background:#0d1f0d;border:1px solid #1b3a1b;border-radius:6px;padding:0.8rem 1.2rem;">
-    <div style="font-family:'Oswald',sans-serif;color:#3fb950;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.4rem;">Why cruise missiles matter</div>
-    <div style="font-size:0.8rem;color:#c0cce0;line-height:1.6;">Unlike ballistic missiles that arc high into the atmosphere (trackable by early warning radar), cruise missiles fly low — sometimes under 100 meters — following terrain contours. They're far harder to detect and intercept. Iran used cruise missiles + drones in the 2019 Aramco strike to devastating effect.</div>
-  </div>
-</div>
-
----
-layout: default
-background: '#070E1A'
----
-
-<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 2rem;">
-  <div class="label" style="margin-bottom:0.5rem;">Category 4</div>
-  <h2 style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:0.4rem;">Anti-Ship Missiles</h2>
-  <div style="color:#a371f7;font-family:'Oswald',sans-serif;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1.2rem;">Strait of Hormuz Denial · Carrier-Killer Capability</div>
-
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem;">
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border-left:3px solid #a371f7;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.95rem;color:#fff;margin-bottom:0.2rem;">Ra'ad</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">350 km</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Anti-ship cruise missile. Based on Chinese C-802. Primary Iranian naval strike weapon.</div>
-      <span class="tag tag-op">Operational</span>
-    </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border-left:3px solid #a371f7;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.95rem;color:#fff;margin-bottom:0.2rem;">Noor</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">~170 km</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Anti-ship cruise missile. Hezbollah used a Noor variant to strike INS Hanit (Israeli warship) in 2006 Lebanon War.</div>
-      <span class="tag tag-op">Operational</span>
-    </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border-left:3px solid #B22234;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.95rem;color:#fff;margin-bottom:0.2rem;">Khalij Fars ⚠️</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">~300 km</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;"><strong style="color:#fff">Ballistic</strong> anti-ship missile — an extremely rare capability. Designed to strike moving aircraft carriers. Difficult to intercept.</div>
-      <span class="tag tag-op">Operational</span>
-    </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border-left:3px solid #B22234;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.95rem;color:#fff;margin-bottom:0.2rem;">Hormuz-1/2</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">300 km</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Anti-radiation missile. Designed to home in on and destroy radar systems on ships and ground installations.</div>
-      <span class="tag tag-op">Operational</span>
-    </div>
-  </div>
-
-  <div style="background:#1a0a2e;border:1px solid #2d1b69;border-radius:6px;padding:0.8rem 1.2rem;">
-    <div style="font-size:0.8rem;color:#c0cce0;line-height:1.5;">🚢 <strong style="color:#a371f7">Strategic goal:</strong> Deny US Navy access to the Persian Gulf and Strait of Hormuz — through which 20% of the world's oil flows. The Khalij Fars ballistic anti-ship missile is specifically designed to threaten US carrier strike groups.</div>
-  </div>
-</div>
-
----
-layout: default
-background: '#070E1A'
----
-
-<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 2rem;">
-  <div class="label" style="margin-bottom:0.5rem;">Category 5</div>
-  <h2 style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:0.4rem;">Space Launch Vehicles</h2>
-  <div style="color:#58a6ff;font-family:'Oswald',sans-serif;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1.2rem;">Dual-Use Technology · ICBM-Applicable · The Cover Program</div>
-
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-bottom:1.2rem;">
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;text-align:center;border-top:3px solid #58a6ff;">
-      <div style="font-size:2rem;margin-bottom:0.5rem;">🛰️</div>
-      <div style="font-family:'Oswald',sans-serif;font-size:0.95rem;color:#fff;margin-bottom:0.3rem;">Safir</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">350 km altitude</div>
-      <div style="font-size:0.75rem;color:#8B9AB5;line-height:1.5;">Iran's first successful orbital SLV. Placed Omid satellite into orbit in 2009. Two-stage, liquid-fueled.</div>
-      <div style="margin-top:0.6rem;"><span class="tag tag-op">Operational</span></div>
-    </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;text-align:center;border-top:3px solid #58a6ff;">
-      <div style="font-size:2rem;margin-bottom:0.5rem;">🚀</div>
-      <div style="font-family:'Oswald',sans-serif;font-size:0.95rem;color:#fff;margin-bottom:0.3rem;">Simorgh</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">500 km altitude</div>
-      <div style="font-size:0.75rem;color:#8B9AB5;line-height:1.5;">Heavier payload capacity than Safir. Multiple launch attempts. Two-stage, liquid-fueled. Theoretically heavier warheads.</div>
+    <div class="card card-blue" style="text-align:center;padding:1rem;">
+      <div style="font-size:2.5rem;margin-bottom:0.4rem;">🚀</div>
+      <a href="https://en.wikipedia.org/wiki/Simorgh_(rocket)" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:1rem;text-decoration:none;display:block;margin-bottom:0.3rem;">Simorgh <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+      <div class="mono gold" style="font-size:0.9rem;margin-bottom:0.5rem;">500 km alt.</div>
+      <div class="muted" style="font-size:0.72rem;line-height:1.5;">Heavier payload. Multiple launch attempts. Can theoretically carry heavier warheads.</div>
       <div style="margin-top:0.6rem;"><span class="tag tag-dev">In Development</span></div>
     </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;text-align:center;border-top:3px solid #B22234;">
-      <div style="font-size:2rem;margin-bottom:0.5rem;">⚠️</div>
-      <div style="font-family:'Oswald',sans-serif;font-size:0.95rem;color:#fff;margin-bottom:0.3rem;">Qaem-100</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.85rem;margin-bottom:0.5rem;">Orbital SLV</div>
-      <div style="font-size:0.75rem;color:#8B9AB5;line-height:1.5;">Unveiled 2022. <strong style="color:#B22234">Solid-fuel</strong> — critically significant. Solid-fuel ICBMs can launch in minutes vs. hours for liquid. Hardest to preempt.</div>
+    <div class="card" style="text-align:center;padding:1rem;border-top:3px solid #B22234;">
+      <div style="font-size:2.5rem;margin-bottom:0.4rem;">⚠️</div>
+      <a href="https://en.wikipedia.org/wiki/Qaem-100" target="_blank" style="font-family:'Oswald',sans-serif;color:#fff;font-size:1rem;text-decoration:none;display:block;margin-bottom:0.3rem;">Qaem-100 <span style="color:#C9A84C;font-size:0.6rem;">↗</span></a>
+      <div class="mono" style="font-size:0.9rem;margin-bottom:0.5rem;color:#B22234;">Solid-Fuel ⚡</div>
+      <div class="muted" style="font-size:0.72rem;line-height:1.5;">Unveiled 2022. Solid-fuel SLV — the critical escalation. Can launch in <strong style="color:#fff">minutes</strong>, not hours.</div>
       <div style="margin-top:0.6rem;"><span class="tag tag-op">Operational</span></div>
     </div>
   </div>
 
-  <div style="background:#0a1628;border:1px solid #1e3a5f;border-radius:6px;padding:0.8rem 1.2rem;">
-    <div style="font-size:0.8rem;color:#c0cce0;line-height:1.5;">🔬 <strong style="color:#58a6ff">The dual-use dilemma:</strong> The technology to launch a satellite is nearly identical to launching an intercontinental ballistic missile. Iran's SLV program gives it cover to develop long-range missile technology while claiming a civilian space program. The Qaem-100's solid fuel is the key escalation — that's ICBM-grade infrastructure.</div>
+  <div style="background:#0a0e1a;border:1px solid #1e2a3a;border-left:4px solid #C9A84C;border-radius:4px;padding:0.8rem 1rem;font-size:0.78rem;color:#c0cce0;line-height:1.6;">
+    🔬 <strong style="color:#C9A84C">The dual-use dilemma:</strong> The technology to launch a satellite is nearly identical to launching an ICBM. Iran's SLV program provides cover to develop long-range technology while claiming civilian purposes. The <strong style="color:#fff">Qaem-100's solid-fuel</strong> is ICBM-grade — the hardest type to preempt because there's no fueling window to detect.
+    &nbsp;<a href="https://www.armscontrol.org/factsheets/iranmissile" target="_blank" style="color:#C9A84C;text-decoration:none;font-size:0.72rem;">Arms Control Association ↗</a>
   </div>
 </div>
 
 ---
-layout: default
-background: '#070E1A'
+layout: image
+image: https://upload.wikimedia.org/wikipedia/commons/6/64/Kheibar_Shekan_missiles_Sacred_Defence_Week_parade_2023.jpg
 ---
 
-<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 2rem;">
+<div style="position:absolute;inset:0;background:linear-gradient(to bottom, rgba(7,14,26,0.9) 0%, rgba(7,14,26,0.7) 40%, rgba(7,14,26,0.95) 100%);"></div>
+
+<div style="position:relative;z-index:10;height:100%;display:flex;flex-direction:column;justify-content:center;padding:2rem 3rem;">
   <div class="label" style="margin-bottom:0.5rem;">Combat Record</div>
-  <h2 style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:1.2rem;">Iran's Missiles in Combat</h2>
+  <h2 style="font-family:'Playfair Display',serif;font-size:2rem;color:#fff;margin-bottom:1.2rem;">Iran's Missiles in Combat</h2>
 
-  <div style="display:flex;flex-direction:column;gap:0.7rem;">
-    <div style="display:grid;grid-template-columns:140px 1fr;gap:1rem;align-items:start;">
-      <div style="font-family:'Oswald',sans-serif;color:#B22234;font-size:0.85rem;text-align:right;padding-top:2px;">1980–1988</div>
-      <div style="background:#111C2E;border-radius:4px;padding:0.6rem 0.8rem;font-size:0.8rem;color:#c0cce0;line-height:1.5;border-left:2px solid #B22234;"><strong style="color:#fff">Iran-Iraq "War of the Cities"</strong> — Hundreds of Scud missiles exchanged targeting civilian areas of Tehran and Baghdad.</div>
+  <div style="display:flex;flex-direction:column;gap:0.6rem;max-width:680px;">
+    <div style="display:grid;grid-template-columns:110px 1fr;gap:0.8rem;align-items:start;">
+      <div style="font-family:'Oswald',sans-serif;color:#8B9AB5;font-size:0.75rem;text-align:right;padding-top:3px;">1980–1988</div>
+      <div style="background:rgba(17,28,46,0.9);border-left:2px solid #8B9AB5;padding:0.5rem 0.7rem;border-radius:0 4px 4px 0;font-size:0.78rem;color:#c0cce0;"><strong style="color:#fff">War of the Cities</strong> — Hundreds of Scud missiles exchanged with Iraq. Iran's first mass missile combat use.</div>
     </div>
-    <div style="display:grid;grid-template-columns:140px 1fr;gap:1rem;align-items:start;">
-      <div style="font-family:'Oswald',sans-serif;color:#f0883e;font-size:0.85rem;text-align:right;padding-top:2px;">Jun 2017</div>
-      <div style="background:#111C2E;border-radius:4px;padding:0.6rem 0.8rem;font-size:0.8rem;color:#c0cce0;line-height:1.5;border-left:2px solid #f0883e;"><strong style="color:#fff">Syria</strong> — Six ballistic missiles fired at ISIS positions in Deir ez-Zor. Iran's first public combat use in decades.</div>
+    <div style="display:grid;grid-template-columns:110px 1fr;gap:0.8rem;align-items:start;">
+      <div style="font-family:'Oswald',sans-serif;color:#f0883e;font-size:0.75rem;text-align:right;padding-top:3px;">Sep 2019</div>
+      <div style="background:rgba(17,28,46,0.9);border-left:2px solid #f0883e;padding:0.5rem 0.7rem;border-radius:0 4px 4px 0;font-size:0.78rem;color:#c0cce0;"><strong style="color:#fff">Aramco strikes</strong> — Cruise missiles + drones hit Saudi oil facilities. <a href="https://en.wikipedia.org/wiki/2019_Abqaiq%E2%80%93Khurais_attack" target="_blank" style="color:#C9A84C;text-decoration:none;">Halted 5–7% of global oil ↗</a></div>
     </div>
-    <div style="display:grid;grid-template-columns:140px 1fr;gap:1rem;align-items:start;">
-      <div style="font-family:'Oswald',sans-serif;color:#f0883e;font-size:0.85rem;text-align:right;padding-top:2px;">Sep 2019</div>
-      <div style="background:#111C2E;border-radius:4px;padding:0.6rem 0.8rem;font-size:0.8rem;color:#c0cce0;line-height:1.5;border-left:2px solid #f0883e;"><strong style="color:#fff">Aramco strikes, Saudi Arabia</strong> — Cruise missiles + drones hit Abqaiq and Khurais oil facilities, halting 5–7% of global oil supply.</div>
+    <div style="display:grid;grid-template-columns:110px 1fr;gap:0.8rem;align-items:start;">
+      <div style="font-family:'Oswald',sans-serif;color:#C9A84C;font-size:0.75rem;text-align:right;padding-top:3px;">Jan 8, 2020</div>
+      <div style="background:rgba(17,28,46,0.9);border-left:2px solid #C9A84C;padding:0.5rem 0.7rem;border-radius:0 4px 4px 0;font-size:0.78rem;color:#c0cce0;"><strong style="color:#fff">US bases, Iraq</strong> — <a href="https://en.wikipedia.org/wiki/2020_al-Asad_airbase_attack" target="_blank" style="color:#C9A84C;text-decoration:none;">16 ballistic missiles ↗</a> at Ain al-Assad & Erbil. 100+ US troops with brain injuries. Retaliation for Soleimani.</div>
     </div>
-    <div style="display:grid;grid-template-columns:140px 1fr;gap:1rem;align-items:start;">
-      <div style="font-family:'Oswald',sans-serif;color:#C9A84C;font-size:0.85rem;text-align:right;padding-top:2px;">Jan 8, 2020</div>
-      <div style="background:#111C2E;border-radius:4px;padding:0.6rem 0.8rem;font-size:0.8rem;color:#c0cce0;line-height:1.5;border-left:2px solid #C9A84C;"><strong style="color:#fff">US bases, Iraq</strong> — 16 ballistic missiles (Qiam-1, Fateh-313) hit Ain al-Assad and Erbil. 100+ US troops with traumatic brain injuries. Retaliation for Soleimani.</div>
+    <div style="display:grid;grid-template-columns:110px 1fr;gap:0.8rem;align-items:start;">
+      <div style="font-family:'Oswald',sans-serif;color:#B22234;font-size:0.75rem;text-align:right;padding-top:3px;">Apr 2024</div>
+      <div style="background:rgba(17,28,46,0.9);border-left:2px solid #B22234;padding:0.5rem 0.7rem;border-radius:0 4px 4px 0;font-size:0.78rem;color:#c0cce0;"><strong style="color:#fff">First direct strike on Israel</strong> — <a href="https://en.wikipedia.org/wiki/Operation_True_Promise" target="_blank" style="color:#C9A84C;text-decoration:none;">300+ drones & missiles ↗</a>. Most intercepted by multilateral air defense (US, Israel, Jordan, Saudi).</div>
     </div>
-    <div style="display:grid;grid-template-columns:140px 1fr;gap:1rem;align-items:start;">
-      <div style="font-family:'Oswald',sans-serif;color:#B22234;font-size:0.85rem;text-align:right;padding-top:2px;">Apr–Oct 2024</div>
-      <div style="background:#111C2E;border-radius:4px;padding:0.6rem 0.8rem;font-size:0.8rem;color:#c0cce0;line-height:1.5;border-left:2px solid #B22234;"><strong style="color:#fff">Direct strikes on Israel</strong> — 300+ drones + missiles (April); ~200 ballistic missiles (October). First-ever direct Iranian attacks on Israeli territory. Most intercepted by multilateral air defense.</div>
+    <div style="display:grid;grid-template-columns:110px 1fr;gap:0.8rem;align-items:start;">
+      <div style="font-family:'Oswald',sans-serif;color:#B22234;font-size:0.75rem;text-align:right;padding-top:3px;">Oct 2024</div>
+      <div style="background:rgba(17,28,46,0.9);border-left:2px solid #B22234;padding:0.5rem 0.7rem;border-radius:0 4px 4px 0;font-size:0.78rem;color:#c0cce0;"><strong style="color:#fff">Second strike on Israel</strong> — ~200 ballistic missiles. Several reached Israeli territory. Arrow-3 & Iron Dome active. <a href="https://en.wikipedia.org/wiki/Operation_True_Promise_II" target="_blank" style="color:#C9A84C;text-decoration:none;">Operation True Promise II ↗</a></div>
+    </div>
+  </div>
+  <div style="margin-top:0.8rem;font-size:0.62rem;color:#8B9AB5;">Photo: Kheibar Shekan missiles, Sacred Defence Week parade 2023 · © Wikimedia Commons</div>
+</div>
+
+---
+layout: default
+background: '#070E1A'
+---
+
+<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:1.5rem 2rem;">
+  <div class="label" style="margin-bottom:0.5rem;">Proliferation</div>
+  <h2 style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:0.5rem;">Iran's Proxy Arsenal</h2>
+  <div class="muted" style="margin-bottom:1.2rem;">Iran multiplies its reach by arming four major proxy forces across the Middle East</div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.9rem;">
+    <div class="card card-green" style="padding:0.9rem 1rem;">
+      <div style="font-size:1.1rem;margin-bottom:0.4rem;">🇱🇧 <strong style="font-family:'Oswald',sans-serif;">Hezbollah</strong> — Lebanon</div>
+      <div class="mono gold" style="font-size:1rem;margin-bottom:0.4rem;">150,000+ rockets & missiles</div>
+      <div class="muted" style="line-height:1.5;">Fateh-110, Zelzal, Fajr-5, Raad-450. Larger than most Middle Eastern militaries. Covers all of Israel. Significantly degraded in 2024 Israeli strikes.</div>
+      <div style="margin-top:0.5rem;"><a href="https://en.wikipedia.org/wiki/Hezbollah%27s_rocket_and_missile_arsenal" target="_blank" style="color:#C9A84C;text-decoration:none;font-size:0.7rem;">Wikipedia: Hezbollah arsenal ↗</a></div>
+    </div>
+    <div class="card card-orange" style="padding:0.9rem 1rem;">
+      <div style="font-size:1.1rem;margin-bottom:0.4rem;">🇵🇸 <strong style="font-family:'Oswald',sans-serif;">Hamas</strong> — Gaza</div>
+      <div class="mono gold" style="font-size:1rem;margin-bottom:0.4rem;">Thousands of rockets</div>
+      <div class="muted" style="line-height:1.5;">Iranian Fajr-5 reached Tel Aviv (2012). Technology transfer enabled indigenous production of M-75 and J-80 rockets up to 160 km range.</div>
+      <div style="margin-top:0.5rem;"><a href="https://en.wikipedia.org/wiki/Hamas_rocket_attacks" target="_blank" style="color:#C9A84C;text-decoration:none;font-size:0.7rem;">Wikipedia: Hamas rocket attacks ↗</a></div>
+    </div>
+    <div class="card card-red" style="padding:0.9rem 1rem;">
+      <div style="font-size:1.1rem;margin-bottom:0.4rem;">🇾🇪 <strong style="font-family:'Oswald',sans-serif;">Houthis</strong> — Yemen</div>
+      <div class="mono gold" style="font-size:1rem;margin-bottom:0.4rem;">Ballistic + cruise + drones</div>
+      <div class="muted" style="line-height:1.5;">Burkan-2H (1,000 km) hit Riyadh airport (2017). Disrupted global Red Sea shipping (2024). Struck Israel multiple times (2023–24).</div>
+      <div style="margin-top:0.5rem;"><a href="https://en.wikipedia.org/wiki/Houthi_movement" target="_blank" style="color:#C9A84C;text-decoration:none;font-size:0.7rem;">Wikipedia: Houthi movement ↗</a></div>
+    </div>
+    <div class="card card-blue" style="padding:0.9rem 1rem;">
+      <div style="font-size:1.1rem;margin-bottom:0.4rem;">🇮🇶 <strong style="font-family:'Oswald',sans-serif;">Iraqi Militias</strong></div>
+      <div class="mono gold" style="font-size:1rem;margin-bottom:0.4rem;">Katyusha + guided missiles</div>
+      <div class="muted" style="line-height:1.5;">Kata'ib Hezbollah and other IRGC-backed groups repeatedly struck US bases in Iraq 2019–2024. Triggered the Soleimani crisis.</div>
+      <div style="margin-top:0.5rem;"><a href="https://en.wikipedia.org/wiki/Popular_Mobilization_Forces" target="_blank" style="color:#C9A84C;text-decoration:none;font-size:0.7rem;">Wikipedia: Popular Mobilization Forces ↗</a></div>
     </div>
   </div>
 </div>
@@ -329,85 +423,60 @@ layout: default
 background: '#070E1A'
 ---
 
-<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 2rem;">
-  <div class="label" style="margin-bottom:0.5rem;">Proliferation</div>
-  <h2 style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:1rem;">Iran's Missile Exports: The Proxy Arsenal</h2>
-  <div style="font-size:0.85rem;color:#8B9AB5;margin-bottom:1.2rem;">Iran doesn't just threaten with its own missiles — it multiplies the threat by arming proxies across the Middle East.</div>
+<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:1.5rem 2rem;">
+  <div class="label" style="margin-bottom:0.8rem;">Summary & Sources</div>
+  <h2 style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:1.2rem;">Iran's Arsenal at a Glance</h2>
+
+  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:0.6rem;margin-bottom:1.4rem;">
+    <div style="background:#111C2E;border-top:3px solid #58a6ff;border-radius:6px;padding:0.7rem;text-align:center;">
+      <div style="font-family:'Oswald',sans-serif;font-size:0.65rem;color:#58a6ff;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.3rem;">SRBM</div>
+      <div style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;font-weight:700;line-height:1;">7+</div>
+      <div style="font-size:0.65rem;color:#8B9AB5;margin-top:0.2rem;">Up to 800 km</div>
+    </div>
+    <div style="background:#111C2E;border-top:3px solid #f0883e;border-radius:6px;padding:0.7rem;text-align:center;">
+      <div style="font-family:'Oswald',sans-serif;font-size:0.65rem;color:#f0883e;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.3rem;">MRBM</div>
+      <div style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;font-weight:700;line-height:1;">5</div>
+      <div style="font-size:0.65rem;color:#8B9AB5;margin-top:0.2rem;">Up to 2,000 km</div>
+    </div>
+    <div style="background:#111C2E;border-top:3px solid #3fb950;border-radius:6px;padding:0.7rem;text-align:center;">
+      <div style="font-family:'Oswald',sans-serif;font-size:0.65rem;color:#3fb950;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.3rem;">Cruise</div>
+      <div style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;font-weight:700;line-height:1;">3+</div>
+      <div style="font-size:0.65rem;color:#8B9AB5;margin-top:0.2rem;">Up to 3,000 km</div>
+    </div>
+    <div style="background:#111C2E;border-top:3px solid #a371f7;border-radius:6px;padding:0.7rem;text-align:center;">
+      <div style="font-family:'Oswald',sans-serif;font-size:0.65rem;color:#a371f7;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.3rem;">Anti-Ship</div>
+      <div style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;font-weight:700;line-height:1;">4</div>
+      <div style="font-size:0.65rem;color:#8B9AB5;margin-top:0.2rem;">Up to 350 km</div>
+    </div>
+    <div style="background:#111C2E;border-top:3px solid #C9A84C;border-radius:6px;padding:0.7rem;text-align:center;">
+      <div style="font-family:'Oswald',sans-serif;font-size:0.65rem;color:#C9A84C;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.3rem;">SLV</div>
+      <div style="font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;font-weight:700;line-height:1;">3</div>
+      <div style="font-size:0.65rem;color:#8B9AB5;margin-top:0.2rem;">ICBM-applicable</div>
+    </div>
+  </div>
 
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border-top:3px solid #3fb950;">
-      <div style="font-size:1.3rem;margin-bottom:0.4rem;">🇱🇧 Hezbollah (Lebanon)</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.9rem;font-weight:700;margin-bottom:0.4rem;">150,000+ rockets &amp; missiles</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Includes Fateh-110, Zelzal, Fajr-5, Raad-450. Hezbollah's arsenal is larger than most Middle Eastern militaries. Can reach all of Israel. Degraded significantly in 2024 Israeli strikes.</div>
+    <div style="background:#111C2E;border-radius:6px;padding:1rem;">
+      <div style="font-family:'Oswald',sans-serif;color:#C9A84C;font-size:0.7rem;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.7rem;">📚 Learn More</div>
+      <div style="display:flex;flex-direction:column;gap:0.45rem;font-size:0.78rem;">
+        <div>🎯 <a href="https://missilethreat.csis.org/country/iran/" target="_blank" style="color:#C9A84C;text-decoration:none;">CSIS Missile Threat — Iran</a></div>
+        <div>📖 <a href="https://en.wikipedia.org/wiki/Iranian_ballistic_missiles" target="_blank" style="color:#C9A84C;text-decoration:none;">Wikipedia: Iranian Ballistic Missiles</a></div>
+        <div>☢️ <a href="https://en.wikipedia.org/wiki/Iran_and_weapons_of_mass_destruction" target="_blank" style="color:#C9A84C;text-decoration:none;">Wikipedia: Iran & WMD</a></div>
+        <div>🔬 <a href="https://www.armscontrol.org/factsheets/iranmissile" target="_blank" style="color:#C9A84C;text-decoration:none;">Arms Control Association Fact Sheet</a></div>
+        <div>🌐 <a href="https://www.nti.org/countries/iran/" target="_blank" style="color:#C9A84C;text-decoration:none;">Nuclear Threat Initiative — Iran</a></div>
+        <div>🗺️ <a href="https://www.iiss.org/research/iran/" target="_blank" style="color:#C9A84C;text-decoration:none;">IISS: Iran Military Balance</a></div>
+      </div>
     </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border-top:3px solid #f0883e;">
-      <div style="font-size:1.3rem;margin-bottom:0.4rem;">🇵🇸 Hamas (Gaza)</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.9rem;font-weight:700;margin-bottom:0.4rem;">Thousands of rockets</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Iranian-supplied Fajr-5 rockets reached Tel Aviv in 2012. Technology transfer enabled Gaza to produce M-75 and J-80 rockets indigenously. Range: up to 160 km.</div>
+    <div style="display:flex;flex-direction:column;gap:0.6rem;">
+      <div style="background:#1a0505;border:1px solid #3d0000;border-radius:4px;padding:0.7rem 0.9rem;font-size:0.76rem;color:#c0cce0;line-height:1.5;">
+        ⚠️ <strong style="color:#B22234">October 2025:</strong> Khamenei secretly authorized development of <strong style="color:#fff">miniaturized nuclear warheads</strong> for ballistic missiles.
+        <a href="https://en.wikipedia.org/wiki/Nuclear_program_of_Iran" target="_blank" style="color:#C9A84C;text-decoration:none;font-size:0.68rem;display:block;margin-top:0.3rem;">Wikipedia: Nuclear program of Iran ↗</a>
+      </div>
+      <div style="background:#111C2E;border-radius:4px;padding:0.7rem 0.9rem;font-size:0.76rem;color:#c0cce0;line-height:1.5;">
+        ⭐ <strong style="color:#3fb950">Farthest reach:</strong> Soumar cruise missile — <strong style="color:#fff">3,000 km</strong><br>
+        ⭐ <strong style="color:#f0883e">Most advanced MRBM:</strong> Sejjil — solid-fuel, 2,000 km<br>
+        ⭐ <strong style="color:#58a6ff">Carrier-killer:</strong> Khalij Fars — ballistic anti-ship
+      </div>
     </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border-top:3px solid #B22234;">
-      <div style="font-size:1.3rem;margin-bottom:0.4rem;">🇾🇪 Houthis (Yemen)</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.9rem;font-weight:700;margin-bottom:0.4rem;">Ballistic + cruise missiles, drones</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Burkan-2H (1,000 km range) hit Riyadh airport (2017). Cruise missiles hit Dubai (2022). Attacked Israel (2023–2024). Disrupted global Red Sea shipping in 2024.</div>
-    </div>
-    <div style="background:#111C2E;border-radius:6px;padding:1rem;border-top:3px solid #58a6ff;">
-      <div style="font-size:1.3rem;margin-bottom:0.4rem;">🇮🇶 Iraqi Militias</div>
-      <div style="font-family:'JetBrains Mono',monospace;color:#C9A84C;font-size:0.9rem;font-weight:700;margin-bottom:0.4rem;">Katyusha rockets + guided missiles</div>
-      <div style="font-size:0.78rem;color:#8B9AB5;line-height:1.5;">Used to attack US bases in Iraq repeatedly 2019–2024. Kata'ib Hezbollah and other IRGC-backed militias operate with Iranian-supplied short-range rockets.</div>
-    </div>
-  </div>
-</div>
-
----
-layout: default
-background: '#070E1A'
----
-
-<div style="height:100%;display:flex;flex-direction:column;justify-content:center;padding:0 2rem;">
-  <div class="label" style="margin-bottom:1rem;">Summary</div>
-  <h2 style="font-family:'Playfair Display',serif;font-size:2rem;color:#fff;margin-bottom:1.5rem;">Iran's Missile Arsenal at a Glance</h2>
-
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr;gap:0.8rem;margin-bottom:1.5rem;">
-    <div style="background:#111C2E;border-radius:6px;padding:0.8rem;text-align:center;border-top:3px solid #58a6ff;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.7rem;color:#58a6ff;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.3rem;">SRBM</div>
-      <div style="font-family:'Playfair Display',serif;font-size:1.6rem;color:#fff;font-weight:700;">7+</div>
-      <div style="font-size:0.68rem;color:#8B9AB5;">Up to 800 km</div>
-    </div>
-    <div style="background:#111C2E;border-radius:6px;padding:0.8rem;text-align:center;border-top:3px solid #f0883e;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.7rem;color:#f0883e;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.3rem;">MRBM</div>
-      <div style="font-family:'Playfair Display',serif;font-size:1.6rem;color:#fff;font-weight:700;">5</div>
-      <div style="font-size:0.68rem;color:#8B9AB5;">Up to 2,000 km</div>
-    </div>
-    <div style="background:#111C2E;border-radius:6px;padding:0.8rem;text-align:center;border-top:3px solid #3fb950;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.7rem;color:#3fb950;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.3rem;">Cruise</div>
-      <div style="font-family:'Playfair Display',serif;font-size:1.6rem;color:#fff;font-weight:700;">3+</div>
-      <div style="font-size:0.68rem;color:#8B9AB5;">Up to 3,000 km</div>
-    </div>
-    <div style="background:#111C2E;border-radius:6px;padding:0.8rem;text-align:center;border-top:3px solid #a371f7;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.7rem;color:#a371f7;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.3rem;">Anti-Ship</div>
-      <div style="font-family:'Playfair Display',serif;font-size:1.6rem;color:#fff;font-weight:700;">4</div>
-      <div style="font-size:0.68rem;color:#8B9AB5;">Up to 350 km</div>
-    </div>
-    <div style="background:#111C2E;border-radius:6px;padding:0.8rem;text-align:center;border-top:3px solid #C9A84C;">
-      <div style="font-family:'Oswald',sans-serif;font-size:0.7rem;color:#C9A84C;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:0.3rem;">SLV</div>
-      <div style="font-family:'Playfair Display',serif;font-size:1.6rem;color:#fff;font-weight:700;">3</div>
-      <div style="font-size:0.68rem;color:#8B9AB5;">ICBM-applicable</div>
-    </div>
-  </div>
-
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0.8rem;">
-    <div style="background:#0d1f0d;border:1px solid #1b3a1b;border-radius:4px;padding:0.7rem;font-size:0.75rem;color:#c0cce0;line-height:1.5;">
-      <span style="color:#3fb950;">★ Farthest reach:</span> Soumar cruise missile — <strong style="color:#fff">3,000 km</strong> (reaches southeastern Europe)
-    </div>
-    <div style="background:#1a0a00;border:1px solid #3d1f00;border-radius:4px;padding:0.7rem;font-size:0.75rem;color:#c0cce0;line-height:1.5;">
-      <span style="color:#f0883e;">★ Most advanced MRBM:</span> Sejjil — solid-fuel, 2-stage, <strong style="color:#fff">2,000 km</strong>, operational
-    </div>
-    <div style="background:#1a0505;border:1px solid #3d0000;border-radius:4px;padding:0.7rem;font-size:0.75rem;color:#c0cce0;line-height:1.5;">
-      <span style="color:#B22234;">⚠️ October 2025:</span> Khamenei authorized <strong style="color:#fff">miniaturized nuclear warheads</strong> for ballistic missiles
-    </div>
-  </div>
-
-  <div style="margin-top:1rem;font-size:0.7rem;color:#8B9AB5;text-align:center;">
-    Source: CSIS Missile Threat · missilethreat.csis.org · February 2026
   </div>
 </div>
