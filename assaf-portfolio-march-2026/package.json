@@ -1,0 +1,13 @@
+{
+  "name": "assaf-portfolio-march-2026",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /assaf-portfolio-march-2026/",
+    "dev": "slidev",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.0",
+    "@slidev/theme-default": "latest"
+  }
+}
