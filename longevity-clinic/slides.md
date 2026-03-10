@@ -148,19 +148,18 @@ background: '#040B0D'
 ---
 
 <div style="position:absolute;inset:0;background:linear-gradient(180deg,#040B0D 0%,#081520 100%);"></div>
-<div style="position:relative;z-index:10;padding:1.5rem 3rem;direction:rtl;">
-
+<div style="padding:1rem 3rem 0.5rem;direction:rtl;">
 <div style="font-family:'Inter',sans-serif;text-transform:uppercase;letter-spacing:0.25em;color:#00C49A;font-size:0.72rem;margin-bottom:1rem;">זרימת מידע — ארכיטקטורה</div>
-
 <h2 style="font-family:'Playfair Display',serif;font-size:2rem;color:#EEF2F3;margin-bottom:1.5rem;">Multi-Agent Flow</h2>
+</div>
 
 ```mermaid
 graph LR
-    P[🧑 Patient] -->|WhatsApp / App| HC[Health Companion]
+    P[Patient] -->|WhatsApp / App| HC[Health Companion]
     HC -->|Sync| UDC[(Unified Data Core)]
     UDC -->|Clinical Query| CS[Clinical Strategist]
     UDC -->|Logistics| EC[Elite Concierge]
-    CS -->|Insights + Flags| DR[👨‍⚕️ Doctor]
+    CS -->|Insights + Flags| DR[Doctor]
     EC -->|Coordination| SVC[External Services]
     DR -->|Approved Plan| HC
     HC -->|Nudges + Updates| P
@@ -169,9 +168,9 @@ graph LR
     style CS fill:#071520,stroke:#1A8FBF,color:#1A8FBF
     style EC fill:#12100a,stroke:#C8A44A,color:#C8A44A
     style HC fill:#071510,stroke:#00C49A,color:#00C49A
-    style DR fill:#040B0D,stroke:#6B8E96,color:#EEF2F3
-    style P fill:#040B0D,stroke:#6B8E96,color:#EEF2F3
-    style SVC fill:#040B0D,stroke:#6B8E96,color:#EEF2F3
+    style DR fill:#0a0a0a,stroke:#6B8E96,color:#EEF2F3
+    style P fill:#0a0a0a,stroke:#6B8E96,color:#EEF2F3
+    style SVC fill:#0a0a0a,stroke:#6B8E96,color:#EEF2F3
 ```
 
 </div>
