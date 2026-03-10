@@ -1,19 +1,34 @@
 {
   "colors": {
-    "bg": "#050D0F",
-    "bgCard": "#0A1A1E",
-    "accent": "#00D4AA",
-    "gold": "#C9A84C",
-    "white": "#F0F4F5",
-    "muted": "#7A9BA3",
-    "border": "#0E2A30",
-    "clinical": "#1E6B8A",
+    "bg": "#040B0D",
+    "bgCard": "#071318",
+    "bgDeep": "#020709",
+    "accent": "#00C49A",
+    "accentBright": "#00E5B5",
+    "gold": "#C8A44A",
+    "goldLight": "#E8C870",
+    "white": "#EEF2F3",
+    "muted": "#6B8E96",
+    "border": "#0C2530",
+    "borderGold": "#3A2E10",
+    "clinical": "#1A8FBF",
     "concierge": "#8B6914",
-    "companion": "#1A7A5A"
+    "companion": "#007A5A",
+    "gradient1": "linear-gradient(135deg, #040B0D 0%, #071822 100%)",
+    "gradient2": "linear-gradient(180deg, #040B0D 0%, #081520 100%)",
+    "gradientRadial": "radial-gradient(ellipse at 30% 50%, #082820 0%, #040B0D 60%)"
   },
   "fonts": {
     "sans": "Inter",
     "serif": "Playfair Display",
     "mono": "JetBrains Mono"
+  },
+  "effects": {
+    "cardBorder": "1px solid rgba(0,196,154,0.18)",
+    "cardBg": "rgba(0,196,154,0.05)",
+    "goldCardBorder": "1px solid rgba(200,164,74,0.2)",
+    "goldCardBg": "rgba(200,164,74,0.06)",
+    "glowTeal": "0 0 40px rgba(0,196,154,0.15)",
+    "glowGold": "0 0 40px rgba(200,164,74,0.12)"
   }
 }
