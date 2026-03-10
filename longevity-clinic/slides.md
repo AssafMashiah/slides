@@ -225,7 +225,7 @@ background: '#040B0D'
 ---
 
 <div style="position:absolute;inset:0;background:linear-gradient(135deg,#040B0D 0%,#1A1408 100%);"></div>
-<div style="position:relative;z-index:10;padding:2rem 3rem;direction:rtl;">
+<div style="padding:2rem 3rem;direction:rtl;">
 
 <div style="font-family:'Inter',sans-serif;text-transform:uppercase;letter-spacing:0.25em;color:#C8A44A;font-size:0.72rem;margin-bottom:1.5rem;">ערוץ ב׳ — תפעולי</div>
 
@@ -266,7 +266,7 @@ background: '#040B0D'
 ---
 
 <div style="position:absolute;inset:0;background:linear-gradient(135deg,#040B0D 0%,#0A1E18 100%);"></div>
-<div style="position:relative;z-index:10;padding:2rem 3rem;direction:rtl;">
+<div style="padding:2rem 3rem;direction:rtl;">
 
 <div style="font-family:'Inter',sans-serif;text-transform:uppercase;letter-spacing:0.25em;color:#00C49A;font-size:0.72rem;margin-bottom:1.5rem;">ערוץ ג׳ — ליווי</div>
 
