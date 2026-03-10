@@ -1,0 +1,19 @@
+{
+  "colors": {
+    "bg": "#050D0F",
+    "bgCard": "#0A1A1E",
+    "accent": "#00D4AA",
+    "gold": "#C9A84C",
+    "white": "#F0F4F5",
+    "muted": "#7A9BA3",
+    "border": "#0E2A30",
+    "clinical": "#1E6B8A",
+    "concierge": "#8B6914",
+    "companion": "#1A7A5A"
+  },
+  "fonts": {
+    "sans": "Inter",
+    "serif": "Playfair Display",
+    "mono": "JetBrains Mono"
+  }
+}
