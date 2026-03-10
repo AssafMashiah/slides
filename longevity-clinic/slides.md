@@ -59,7 +59,7 @@ background: '#ffffff'
 ---
 
 <div style="position:absolute;inset:0;background:#ffffff;"></div>
-<div style="position:relative;z-index:10;padding:2rem 3rem;direction:rtl;">
+<div style="padding:2rem 3rem;direction:rtl;">
 
 <div style="font-family:'Assistant',sans-serif;text-transform:uppercase;letter-spacing:0.25em;color:#ef406b;font-size:0.72rem;margin-bottom:1.5rem;font-weight:600;">החזון</div>
 
@@ -96,7 +96,7 @@ background: '#f5f5f5'
 ---
 
 <div style="position:absolute;inset:0;background:#f5f5f5;"></div>
-<div style="position:relative;z-index:10;padding:2rem 3rem;direction:rtl;">
+<div style="padding:2rem 3rem;direction:rtl;">
 
 <div style="font-family:'Assistant',sans-serif;text-transform:uppercase;letter-spacing:0.25em;color:#ef406b;font-size:0.72rem;margin-bottom:1.5rem;font-weight:600;">ארכיטקטורה</div>
 
@@ -173,15 +173,13 @@ graph LR
     style SVC fill:#f5f5f5,stroke:#757575,color:#1a1a1a
 ```
 
-</div>
-
 ---
 layout: default
 background: '#f5f5f5'
 ---
 
 <div style="position:absolute;inset:0;background:#f5f5f5;"></div>
-<div style="position:relative;z-index:10;padding:2rem 3rem;direction:rtl;">
+<div style="padding:2rem 3rem;direction:rtl;">
 
 <div style="font-family:'Assistant',sans-serif;text-transform:uppercase;letter-spacing:0.25em;color:#1A8FBF;font-size:0.72rem;margin-bottom:1.5rem;font-weight:600;">ערוץ א׳ — קליני</div>
 
@@ -310,7 +308,7 @@ background: '#ffffff'
 ---
 
 <div style="position:absolute;inset:0;background:#ffffff;"></div>
-<div style="position:relative;z-index:10;padding:2rem 3rem;direction:rtl;">
+<div style="padding:2rem 3rem;direction:rtl;">
 
 <div style="font-family:'Assistant',sans-serif;text-transform:uppercase;letter-spacing:0.25em;color:#ef406b;font-size:0.72rem;margin-bottom:1.5rem;font-weight:600;">מסע המטופל</div>
 
@@ -371,7 +369,7 @@ background: '#f5f5f5'
 ---
 
 <div style="position:absolute;inset:0;background:#f5f5f5;"></div>
-<div style="position:relative;z-index:10;padding:2rem 3rem;direction:rtl;">
+<div style="padding:2rem 3rem;direction:rtl;">
 
 <div style="font-family:'Assistant',sans-serif;text-transform:uppercase;letter-spacing:0.25em;color:#ef406b;font-size:0.72rem;margin-bottom:1.5rem;font-weight:600;">עקרונות ליישום</div>
 
@@ -421,7 +419,7 @@ background: '#ffffff'
 ---
 
 <div style="position:absolute;inset:0;background:#ffffff;"></div>
-<div style="position:relative;z-index:10;padding:2rem 3rem;direction:rtl;">
+<div style="padding:2rem 3rem;direction:rtl;">
 
 <div style="font-family:'Assistant',sans-serif;text-transform:uppercase;letter-spacing:0.25em;color:#ef406b;font-size:0.72rem;margin-bottom:1.5rem;font-weight:600;">פוטנציאל שוק</div>
 
